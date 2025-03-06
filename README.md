@@ -25,5 +25,12 @@ This repository contains code for the Kaggle competition ["LLM Classification Fi
 Python 3.8+
 pip install -r requirements.txt
 ```
-
-
+## 🧠 Model Approach
+### Data Processing Pipeline
+```mermaid
+graph TD;
+    A[Raw Data] --> B[Text Cleaning]
+    B --> C[Position Bias Mitigation]
+    C --> D[Tokenization]
+    D --> E[Model Input]
+```
