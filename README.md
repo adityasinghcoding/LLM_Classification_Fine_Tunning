@@ -35,7 +35,7 @@ graph TD;
     D --> E[Model Input]
 ```
 ### Architecture 
-- Base Model: microsoft/deberta-base
+- Base Model: `microsoft/deberta-base`
 - Classification Head: 3-class (A/B/Tie)
 - Input Format:
     ```
@@ -52,3 +52,21 @@ graph TD;
 | 1 | 0.892 | 0.815 | 68.2% |
 | 2 | 0.721 | 0.799 | 69.5% |
 | 3 | 	0.634 | 0.812 | 69.1% |
+
+## 🚧 Future Improvements
+- Add cross-validation support
+- Experiment with different base models (RoBERTa, GPT-Neo)
+- Implement ensemble methods
+- Add response length features
+- Incorporate conversation history
+
+## 📜 License
+This project is released under the Kaggle Competition Rules. All code is MIT licensed unless otherwise specified.
+
+## 🙏 Acknowledgments
+- Kaggle team for hosting the competition
+- Hugging Face for the Transformers library
+- Microsoft Research for DeBERTa model
+
+## 📬 Contact
+For questions/suggestions, open an issue or contact [adityabussinesslimited@gmail.com]
