@@ -61,7 +61,7 @@ graph TD;
 - Incorporate conversation history
 
 ## 📜 License
-This project is released under the Kaggle Competition Rules. All code is MIT licensed unless otherwise specified.
+This project is released under the [Kaggle Competition Rules](https://www.kaggle.com/competitions/llm-classification-finetuning/rules). All code is MIT licensed unless otherwise specified.
 
 ## 🙏 Acknowledgments
 - Kaggle team for hosting the competition
