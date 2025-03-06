@@ -34,3 +34,21 @@ graph TD;
     C --> D[Tokenization]
     D --> E[Model Input]
 ```
+### Architecture 
+- Base Model: microsoft/deberta-base
+- Classification Head: 3-class (A/B/Tie)
+- Input Format:
+    ```
+    [CLS] Prompt: {text} [SEP] Response A: {text} [SEP] Response B: {text} [SEP]
+    ```
+- Training:
+    - AdamW optimizer (lr=2e-5)
+    - 3 epochs
+    - FP16 mixed precision
+
+## 📈 Performance
+| Epoch | Train Loss | Val Loss | Accuracy
+| --- | --- | --- | --- |
+| 1 | 0.892 | 0.815 | 68.2% |
+| 2 | 0.721 | 0.799 | 69.5% |
+| 3 | 	0.634 | 0.812 | 69.1% |
