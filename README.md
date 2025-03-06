@@ -9,7 +9,7 @@ A solution for predicting human preferences between LLM-generated responses in h
 
 ## 📌 Overview
 
-This repository contains code for the Kaggle competition ["LLM Classification Finetuning"](https://www.kaggle.com/competitions/llm-classification-finetuning), where the goal is to predict which of two AI-generated responses humans will prefer. The solution uses fine-tuned transformer models to analyze conversational data from Chatbot Arena.
+This repository contains code for the Kaggle competition !["LLM Classification Finetuning"](https://www.kaggle.com/competitions/llm-classification-finetuning), where the goal is to predict which of two AI-generated responses humans will prefer. The solution uses fine-tuned transformer models to analyze conversational data from Chatbot Arena.
 
 ## 🚀 Key Features
 
