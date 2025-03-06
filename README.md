@@ -27,8 +27,3 @@ pip install -r requirements.txt
 ```
 
 
-graph TD
-    A[Raw Data] --> B[Text Cleaning]
-    B --> C[Position Bias Mitigation]
-    C --> D[Tokenization]
-    D --> E[Model Input]
